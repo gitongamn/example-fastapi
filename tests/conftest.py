@@ -10,6 +10,7 @@ from app.database import get_db
 from app.database import Base
 from app.oauth2 import create_access_token
 from app import models
+from alembic import command
 
 SQLALCHEMY_DATABASE_URL = f'postgresql://{settings.DATABASE_USERNAME}:{settings.DATABASE_PASSWORD}@{settings.DATABASE_HOSTNAME}:{settings.DATABASE_PORT}/{settings.DATABASE_NAME}_test'
 
