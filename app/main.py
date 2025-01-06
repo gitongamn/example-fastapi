@@ -27,7 +27,7 @@ app.include_router(vote.router)
 
 @app.get("/")
 def root():
-    return {"message": "Hello worlds!? sort off"}
+    return {"message": "Hello worlds!? sort off successfully deployed ci/cd pipeline"}
 
 
 
